@@ -1,9 +1,6 @@
 import React, { useEffect } from 'react'
 import { useRouter } from '../../../node_modules/next/router'
-// add bootstrap css
-import 'bootstrap/dist/css/bootstrap.css'
 import Link from '../../../node_modules/next/link'
-import { Style } from 'util'
 
 //Demo Client Side Rendering nên sẽ chạy 2 lần để lấy dữ liệu sau khi xử lý trong functional component
 const AdminUserId: React.FC = () => {
@@ -24,7 +21,7 @@ const AdminUserId: React.FC = () => {
 				To Posts Page
 			</button>
 			<Link href="/login">
-				<a>Link to Login</a>
+				<a className="text-decoration-none m-3">Link to Login</a>
 			</Link>
 		</div>
 	)
