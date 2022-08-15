@@ -16,7 +16,7 @@ const Index: React.FC = () => {
 					<button className="mt-5 btn btn-outline-primary m-3">Back To Home</button>
 				</a>
 			</Link>
-			<div className="wrapper">
+			<div className="wrapper mb-5">
 				<div className="logo">
 					<FontAwesomeIcon icon={faAtom} />
 				</div>
